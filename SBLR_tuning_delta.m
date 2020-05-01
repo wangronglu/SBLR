@@ -2,7 +2,7 @@ function [alpha_final,Lambda_final,Beta_final,coefM_final,coefM_final_vec,min_de
     SBLR_tuning_delta(W_train,X_train,y_train,W_vali,X_vali,y_vali,...
     K,eta,tol,nreps,ndt,delta_min_ratio)
 % SBLR_tuning_delta.m automatically find delta_max that penalizes all the
-% coefficients to zero, select the optimal delta value producing the
+% coefficients to zero, and select the optimal delta value producing the
 % smallest deviance on validation set.
 
 % Input:
